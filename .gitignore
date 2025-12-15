@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Hexo generated files
+public/
+db.json
+.deploy_git/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env

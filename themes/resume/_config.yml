@@ -1,0 +1,13 @@
+cdn:
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
+  vue: https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js
+  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
+  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
+  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
+  fancybox:
+    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5/dist/jquery.fancybox.min.css
+    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5/dist/jquery.fancybox.min.js
+
+robots: noindex,nofollow
+
+copyright: '[Copyright © 2017-2020 XXX](/)'

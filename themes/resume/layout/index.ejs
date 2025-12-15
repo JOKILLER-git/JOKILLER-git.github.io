@@ -1,0 +1,40 @@
+<div class="sidebar">
+  <div class="sidebar-inner">
+    <header class='header'>
+      <h2><%- page.name || site.title %></h2>
+      <div class='meta'></div>
+    <hr><br>
+    </header>
+    <div class="list">
+      <ul class="menu-root">
+        <% site.pages.sort('order').each(function (p) { %>
+          <li>
+            <a href="<%- url_for(p.path) %>" class="sidebar-link<%- page.title === p.title ? ' current' : '' %>"><%- p.title %></a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="content with-sidebar">
+  <div class='resume-header'>
+    <h1 class='resume-title'><%- page.resume_title || site.title %></h1>
+    <p class='description'><%- page.description || site.description %></p>
+  </div>
+
+  <% if (page.content && page.content.trim()) { %>
+    <%- page.content %>
+  <% } else { %>
+    <div class="posts">
+      <% site.posts.each(function(post){ %>
+        <article>
+          <h2 class="post-title"><a href="<%- url_for(post.path) %>"><%- post.title %></a></h2>
+          <div class="post-excerpt"><%- post.excerpt || post.content.substring(0, 200) %></div>
+        </article>
+      <% }) %>
+    </div>
+  <% } %>
+</div>
+
+ 
