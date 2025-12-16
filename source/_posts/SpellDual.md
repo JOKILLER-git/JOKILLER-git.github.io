@@ -8,9 +8,6 @@ tags:
   - 2D
   - Card Game
 ---
-![](/img/Images/4.png)
-
-![](/img/Images/5.png)
 
 ![](/img/Images/6.png)
 
@@ -21,8 +18,6 @@ tags:
 ![](/img/Images/9.png)
 
 ![](/img/Images/10.png)
-
-![](/img/Images/11.png)
 
 ![](/img/Images/14.png)
 

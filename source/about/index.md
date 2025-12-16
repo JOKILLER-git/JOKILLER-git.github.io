@@ -5,6 +5,8 @@ date: 2025-12-17 00:59:31
 
 <h1 style="font-size:32px;margin-bottom:0.5em">Personal Statement</h1>
 
+![](/img/Images/4.png)
+
 <div style="font-size:18px">
 
 The game scenes reflecting elegant architecture always fascinate me, conveying hope and faith that convince me that noble aspects of humanity exist. It is my ardent passion and aspiration to delve into this captivating medium for future studies.
