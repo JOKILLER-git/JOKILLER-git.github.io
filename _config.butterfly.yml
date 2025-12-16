@@ -287,11 +287,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: My Github.
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: If you could give me the opportunity to study at your school, I would be extremely grateful.
   card_recent_post:
     enable: true
     # If set 0 will show all
