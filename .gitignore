@@ -1,14 +1,8 @@
-# Node modules
-node_modules/
-
-# Hexo generated files
-public/
+.DS_Store
+Thumbs.db
 db.json
-.deploy_git/
-
-# Logs
-npm-debug.log*
-yarn-error.log*
-
-# Environment files
-.env
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
